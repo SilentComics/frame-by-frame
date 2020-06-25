@@ -11,7 +11,8 @@ title                    : "SILENT COMICS"
 title_separator          : "-"
 description              : "SILENT COMICS, independent, mercurial, and ad-free comics."
 words_per_minute         : 200
-repository               : "SilentComics/silentcomics"
+github_username          : SilentComics
+github_repo              : frame-by-frame
 baseurl                  : "" # the subpath of your site, e.g. /blog
 url                      : ""
 
