@@ -14,7 +14,7 @@ words_per_minute         : 200
 github_username          : SilentComics
 github_repo              : frame-by-frame
 baseurl                  : "/frame-by-frame" # the subpath of your site, e.g. /blog
-url                      : "https://silentcomics.github.io"
+url                      : "https://silentcomics.github.io/frame-by-frame"
 
 environment: production
 
