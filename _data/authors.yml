@@ -1,0 +1,49 @@
+# Authors
+
+Hoa:
+  name:           SILENT COMICS
+  picture:        "/images/default-logo.png"
+  bio:            "shh!"
+  location:
+  uri:            "https://silent-comics.com"
+  email:
+  twitter:        "SilentComics"
+  facebook:       "SilentComics"
+  instagram:      "silent_comics"
+  ello:           "SilentComics"
+  wordpress:
+  github:         "SilentComics"
+  pinterest:      "SilentComics"
+  tumblr:         "silent-comics"
+
+Yves:
+  name:           Yves
+  picture:        "/images/bio-FilmStoryboards.jpg"
+  bio:            "Crafting storyboards"
+  location:
+  uri:            "https://film-storyboards.com"
+  email:          yves[at]film-storyboards.com
+  twitter:        "FilmStoryboards"
+  facebook:       "filmstoryboards"
+  instagram:      "filmstoryboards"
+  medium:         "@FilmStoryboards"
+  tumblr:         "Film-Storyboards"
+
+alternatyves:
+  name:           alternatyves
+  picture:        "/images/bio-FilmStoryboards.jpg"
+  bio:            "Reality is Serious Drug"
+  location:
+  uri:            "https://alternatyves.com"
+  email:          yves[at]alternatyves.com
+  twitter:        "alternatyves"
+  tumblr:         "alternatyves"
+
+Guest Author:
+  name:           Guest
+  picture:        "/images/bio-OKpi.jpg"
+  bio:            "Your line"
+  location:
+  uri:            "http://example.com"
+  email:          name@website.com
+  twitter:        "guesttwitter"

@@ -1,0 +1,15 @@
+<!-- TODO: add medium sizes with a gulpfile.js, implement alt and figcaption  also -->
+<figure class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+    {% for image in include.images %}
+
+        <a href="/images/{{image}}" itemprop="contentUrl" data-size="{% imagesize direct_url:size %}" data-med="/images/{{image}}" data-med-size="{% imagesize {{image}}:size/4 %}">
+            <img src="/images/{{image}}" itemscope itemtype="http://schema.org/ImageObject" data-size="{% imagesize {{image}}:size %}" data-med-size="{% imagesize {{image}}:size/4 %}" data-author="" alt="{% if img.alt %}{{ img.alt }}{% endif %}" />
+        </a>
+    {% endfor %}
+
+    {% if include.caption %}
+    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+  {% endif %}
+
+</figure>

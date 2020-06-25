@@ -1,0 +1,3 @@
+# Main links in top navigation
+data-size: imagesize img_url:size 
+data-med-size: imagesize img_url:size/2

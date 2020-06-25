@@ -1,0 +1,50 @@
+{% unless page.comments_locked == true %}
+  <!-- Start comment form -->
+  <div id="respond" class="comment__form mw7-l center pa4 ph7-1">
+    <h2 class="title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
+    <form id="comment-form" class="js-form" method="post" action="https://api.staticman.net/v3/entry/github/{{ site.repository }}/{{ site.staticman.branch }}/comments">
+      <div class="form__group flex-ns justify-between">
+        <label for="comment-form-name" class="db fw6 lh-copy f6 avenir">Name<br>
+          <input class="w-100 pa2 mr2 input-reset ba bg-white hover-bg-near-white hover-light-purple f6 courier" type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Your name">
+        </label>
+        <label for="comment-form-email" class="db fw6 lh-copy f6 avenir">E-mail<br>
+          <input class="w-100 pa2 mr2 input-reset ba bg-white hover-bg-near-white hover-light-purple f6 courier" type="email" id="comment-form-email" name="fields[email]" required spellcheck="false" placeholder="email@domain.com">
+        </label>
+        <label for="comment-form-url" class="db fw6 lh-copy f6 avenir">Website (optional)<br>
+          <input class="w-100 pa2 mr2 input-reset ba bg-transparent hover-bg-light-blue hover-light-purple f6 courier" type="url" id="comment-form-url" name="fields[url]" placeholder="https://domain.com">
+        </label>
+      </div>
+      <div class="form__group">
+        <label for="comment-form-message"><p class="f6 b db mb2 avenir">Comment</p>
+          <textarea class="w-100 db border-box hover-black ba b--black-20 pa2 br2 mb2 f6 courier" type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true" placeholder="Your message / Comment (Markdown is allowed)"></textarea>
+        </label>
+      </div>
+      <input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
+      <input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
+      <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
+      <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
+      <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+      <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
+      <!-- Start comment form alert messaging -->
+      <div class="hidden js-notice">
+        <p class="js-notice-text"></p>
+      </div>
+      <!-- End comment form alert messaging -->
+      <div class="g-recaptcha form__group f6 black-60 avenir" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+      <label class="comment-reply-notifications f6 black-60 avenir" for="comment-form-reply">
+          <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
+          Notify me of replies by email.
+        </label><br><br>
+      <button class="b purple ph3 pv2 input-reset ba b--purple bg-transparent grow pointer f6 dib avenir" type="submit" id="comment-form-submit">Send comment</button>
+    </form>
+  </div>
+  <!-- End comment form -->
+  <script src="https://www.google.com/recaptcha/api.js"
+        async defer>
+    </script>
+{% else %}
+  <div class="notice">
+    <h4>Comments are closed</h4>
+    <p>If you have a question concerning the content of this page, please feel free to <a href="/contact/">contact me</a>.</p>
+  </div>
+{% endunless %}

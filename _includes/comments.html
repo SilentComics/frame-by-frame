@@ -1,0 +1,31 @@
+<div class="entry-comments">
+{% if site.repository and site.staticman.branch %}
+  {% if site.data.comments[page.slug] %}
+    <section id="comments" class="page__comments js-comments mw7-l center pa4 ph7-1">
+      <h2 class="comments-title">
+        {% if site.data.comments[page.slug].size <= 1 %}
+          {{ site.data.comments[page.slug] | size | append: ' comment' }}
+        {% elsif site.data.comments[page.slug].size > 1 %}
+          {{ site.data.comments[page.slug] | size | append: ' comments' }}
+        {% endif %}
+      </h2>
+
+      {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == ""' %}
+      {% for comment in comments %}
+        {% assign index       = forloop.index %}
+        {% assign replying_to = comment[1].replying_to | to_integer %}
+        {% assign id          = comment[1]._id %}
+        {% assign avatar      = comment[1].avatar %}
+        {% assign email       = comment[1].email %}
+        {% assign name        = comment[1].name %}
+        {% assign url         = comment[1].url %}
+        {% assign date        = comment[1].date %}
+        {% assign message     = comment[1].message %}
+        {% include comment.html index=index replying_to=replying_to id=id avatar=avatar email=email name=name url=url date=date message=message %}
+      {% endfor %}
+    </section>
+  {% endif %}
+
+  {% include comment-form.html %}
+{% endif %}
+</div>

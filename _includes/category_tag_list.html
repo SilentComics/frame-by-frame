@@ -1,0 +1,32 @@
+{% if page.category_tag_list != false %}
+  {% if post %}
+    {% assign categories = post.categories %}
+    {% assign tags = post.tags %}
+  {% else %}
+    {% assign categories = page.categories %}
+    {% assign tags = page.tags %}
+  {% endif %}
+  <div class="flex flex-row justify-start flex-wrap list mb2">
+
+<p class="dt dt--fixed w-100">
+  <strong><i class="fas fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.lang].categories_label | default: "Categories:" }} </strong>
+  <span itemprop="keywords">
+  {% for category in categories %}
+    <a class="f6 br1 mt2 mr1 pa2 link purple hover-near-white bg-none hover-bg-purple" href="{{ "/category/" | absolute_url }}{{ category | slugify }}/">{{ category }}</a>
+  {% endfor %}
+  </span>
+  </p>
+
+  <br>
+
+<p class="dt dt--fixed w-100">
+<strong><i class="fas fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.lang].tags_label | default: "Tags:" }} </strong>
+<span itemprop="keywords">
+  {% for tag in tags %}
+    <a class="f6 br1 mt2 mr1 pa2 link purple hover-near-white bg-none hover-bg-light-purple" href="{{ "/tag/" | absolute_url }}{{ tag | slugify }}/">{{ tag }}</a>
+  {% endfor %}
+  </span>
+  </p>
+
+</div>
+{% endif %}

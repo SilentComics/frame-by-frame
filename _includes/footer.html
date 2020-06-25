@@ -1,0 +1,55 @@
+  <footer class="page__footer bg-purple pv4 ph3 ph5-ns">
+
+    <section class="cf mb5">
+    <div class="mb4 mb0-ns fl w-100 w-50-l" >
+      <p class="f4 fw6 mb2 f6 mt0 white avenir">
+        Join SILENT COMICS friends!
+      </p>
+      <div id="mc_embed_signup">
+  <form action="https://silent-comics.us7.list-manage.com/subscribe/post?u=0a36e0058af9477b9100e43c6&amp;id=10c879ffc9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+  <div class="mc-field-group">
+  <label class="clip" for="mce-EMAIL"></label>
+  <input placeholder="Email Address" class="mw-100 w-100 w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box" type="email" value="" name="EMAIL" class="required email mw-100 w-100 w5-ns f5 input-reset ba b--black-20 pv3 ph4 border-box code" id="mce-EMAIL">
+  <input type="submit" value="Signup" name="subscribe" class="input-reset w-100 w-auto-ns bg-purple white f5 pv2 pv3-ns ph4 avenir ba b--black-20 bg-hover-light-purple">
+  </div>
+    </div>
+    </form>
+  </section>
+
+<div class="dt dt--fixed w-100" >
+  <div class="social-icons db dtc-ns f6 f4-ns avenir tc tr-ns v-mid flex flex-wrap">
+    <a class="link light-purple hover-light-green dib mh3 tc" href="/lynchpin/"><i class="fas fa-heart" style="color:white" aria-hidden="true"></i>
+      <span class="f6 db">LOVE</span></a>
+    {% if site.twitter.username %}
+      <a class="link light-purple hover-light-green dib mh3 tc" href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" style="color:white" aria-hidden="true"></i>
+        <span class="f6 db">Twitter</span></a>
+    {% endif %}
+    {% if site.facebook.username %}
+      <a class="link light-purple hover-light-green dib mh3 tc" href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" style="color:white" aria-hidden="true"></i>
+        <span class="f6 db">Facebook</span></a>
+    {% endif %}
+    {% if site.github.username %}
+      <a class="link light-purple hover-light-green dib mh3 tc" href="http://github.com/{{ site.github.username }}"><i class="fab fa-github" style="color:white" aria-hidden="true"></i>
+        <span class="f6 db">GitHub</span></a>
+    {% endif %}
+    {% if site.tumblr.username %}
+      <a class="link light-purple hover-light-green dib mh3 tc" href="https://{{ site.tumblr.username }}.tumblr.com/"><i class="fab fa-tumblr" style="color:white" aria-hidden="true"></i>
+         <span class="f6 db">Tumblr</span></a>
+    {% endif %}
+    <a class="fr link light-purple hover-light-green dib mh3 tc" href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"><i class="fas fa-rss-square" style="color:orange" aria-hidden="true"></i>
+      <span class="f6 db">{{ site.data.ui-text[site.lang].feed_label | default: "Feed" }}</span></a>
+
+  </div>
+</div>
+
+
+</footer>
+
+<div class="page__footer-copyright tc pv4 ph3 ph5-m ph6-l">
+    <div class="">
+      <p class="f7 black-30 dib pr3 mb3 avenir tc">
+        &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Comics, stripped of words. This website does not track you or collect any analytics.
+      </p>
+    </div>

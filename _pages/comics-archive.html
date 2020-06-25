@@ -1,0 +1,45 @@
+---
+layout: default
+title: "Comics"
+description: "All the comics you can read"
+artist: "Anh Hoa Si"
+writer: "Armand d'Échiquier"
+permalink: /comics/
+---
+
+<section class="pb5 ph5-ns ph2">
+  <article class="relative flex-ns flex-wrap">
+
+{% for comics in site.comics %}
+
+<div class="w-100 w-25-l pa1">
+
+  <div class="aspect-ratio aspect-ratio--2x1">
+
+  <a href="{{comics.url}}" style="background-image:url({{ comics.image }});"
+      class="dim aspect-ratio--object cover" />
+    </a>
+
+    <p class="pa3 dib v-mid black truncate w-100 lh-copy avenir">{{ comic.description }}</p></div>
+
+
+  <h2>{{ comics.title }}</h2>
+
+  {% for stories in comics.stories %}
+    <h3>{{ stories.episode }}</h3>
+    <p>{{ stories.blurb }}</p>
+    <ul>
+    {% for character in stories.characters %}
+      <li>{{ character.name }} ({{ character.rank }})</li>
+
+    {% endfor %}
+    </ul>
+  {% endfor %}
+  </div>
+{% endfor %}
+
+
+<p>{% if artist %}, Drawn by {{ artist }}{% endif %} {% if comics.writer %}, written by {{ comics.writer }}{% endif %}</p>
+
+</article>
+</section>

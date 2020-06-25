@@ -1,0 +1,57 @@
+---
+layout: default
+---
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive page mw7-l center pa4 ph7-1">
+
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+
+    {% endunless %}
+
+  </div>
+</div>
+
+<div id="index">
+	<aside class="page flex flex-column items-center ph3 ph5-ns" itemscope itemtype="http://schema.org/CreativeWork">
+	<h1 class="f7 f5-ns lh-copy measure-wide code">SILENT COMICS is an experiment to prototype, design, and publish wordless comics.</h1>
+	<p class="f7 f5-ns lh-copy measure-wide code">This <a href="/notes" class="">blog</a> is just a collection of notes on the project progress and things learned along the way.</p>
+	<p class="f7 f5-ns lh-copy measure-wide code">Follow Silent Comics journey towards the first comics completion and <i><a class="link b light-purple hover-light-green" href="/newsletter">signup for extra treats</a></i>.</p>
+</aside>
+	<br>
+	<div class="archive page mw7-l center pa4 ph7-1">
+		<div class="fl w-100 w-50-ns pa2">
+		 <a href="/notes" class="no-underline f7 tc db w-50 pv3 bg-animate bg-purple hover-bg-light-purple white br1 code">View all blog posts</a>
+		 </div>
+
+					<div class="fl w-100 w-50-ns pa2">
+				    <a href="/about" class="no-underline f7 tc db w-50 pv3 bg-animate bg-white hover-bg-green purple hover-near-white br1 code">Read more about the project</a>
+				      </div>
+    </div>
+</div>
+<br><br>
+<section class="archive page mw7-l center pa4 ph7-1">
+  <h3 class="f3 mid-gray lh-title helvetica"><a href="/notes/">Latest posts</a></h3>
+
+{% include site-search.html %}
+<article class="page__content f5 f3-ns lh-copy measure serif">
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+</article>
+{% include paginator.html %}
+
+</section>

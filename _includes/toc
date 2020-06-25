@@ -1,0 +1,11 @@
+<section class="flex fr w-100 w-third-l">
+
+<aside class="sidebar__right ph1 fr-ns">
+<nav class="toc" markdown="1">
+<header><div class="nav__title b pa3 tc"><i class="fas fa-tasks"></i> {{ include.title | default: site.data.ui-text[site.lang].toc_label }}</div></header>
+*  Auto generated table of contents
+{:toc .toc__menu}
+</nav>
+</aside>
+
+</section>

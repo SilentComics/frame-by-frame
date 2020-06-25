@@ -1,0 +1,22 @@
+# Main links in top navigation
+main:
+#  - title: "ISSUES"
+#    url: /issues/
+  - title: "About"
+    url: /about/
+  - title: "MANIFESTO"
+    url: /manifesto/
+  - title: "Blog"
+    url: /notes/
+#  - title: "COMICS"
+#    url: https://silent-comics.com/
+  # - title: "SHOP"
+  #   url: https://gumroad.com/silentcomics
+  # - title: "Sample Posts"
+  #  - title: "NOTES"
+  #    url: /notes/
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

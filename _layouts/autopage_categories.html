@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<!-- Just some nice to have styles for the pager buttons -->
+<style>
+  ul.pager { text-align: center; list-style: none; }
+  ul.pager li {display: inline;border: 1px solid purple; padding: 10px; margin: 5px;}
+</style>
+
+<div class="home archive page mw7-l center pa4 ph7-1">
+
+  <h1 class="page-heading f2 f1-ns avenir">Posts in <em class="hot-pink">{% if page.autopages %}{{page.autopages.display_name}}{% endif %}</em></h1>
+  Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}
+
+  {{ content | markdownify }}
+
+  <ul class="post-list ">
+    <!--
+        Here is the main paginator logic called.
+        All calls to site.posts should be replaced by paginator.posts
+    -->
+    {% for post in paginator.posts %}
+      <li class="list pl0">
+        <span class="post-meta f6 avenir">{{ post.date | date: "%b %-d, %Y" }}{% if post.book.rank %} | Rank: {{ post.book.rank }}{% endif %}{% if post.collection %} | {{ post.collection }}{% endif %}{% if post.categories %}<br>Categories: {{ post.categories | sort | join: ", " }}{% endif %}</span>
+        <h2>
+          <a class="post-link " href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!--
+    Showing buttons to move to the next and to the previous list of posts (pager buttons).
+  -->
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+  </ul>
+  {% endif %}
+
+</div>

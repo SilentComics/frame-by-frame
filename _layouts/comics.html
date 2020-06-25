@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<article class="page pa3 pa5-ns w-100" itemscope itemtype="http://schema.org/CreativeWork">
+
+
+    <a href="/comics/">Comics overview</a>
+    {% comment %}
+For multiple comics, replace "comics" in {{ site.url }}/comics/ by any story name (assuming each story is configured in a collection)
+    {% endcomment %}
+
+<section class="page__content" itemscope itemtype="http://schema.org/ComicStory">
+  {{ content }}
+  {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.lang].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+</section>
+  {% include comic_pagination.html %}
+
+  {% if page.comments == true %}
+    {% include comments.html %}
+  {% endif %}
+</article>

@@ -1,0 +1,48 @@
+<section class="comic-nav dt dt--fixed w-100">
+
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+
+  {% if page.collection %}
+    {% assign  document = site[the_collection] %}
+  {% endif %}
+
+{% for links in document  %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexturl = next.url %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+
+<nav class="first-comic dtc ttu tracked">
+  <a class="f7 f5-l link purple hover-light-purple avenir" href="{{ site.comics.first.url }}">Start</a>
+</nav>
+
+<nav class="previous-comic dtc">
+{% if prevurl %}<a class="previous f7 f5-l link purple hover-light-purple avenir" href="{{ prevurl }}" class="prev">Previous episode: {{ page.previous.title }}</a>{% endif %}
+</nav>
+
+<h1 class="f7 f5-l lh-title purple ttu tracked tc avenir">{{ page.title }}</h1>
+
+<nav class="next-comic dtc tr">
+{% if nexturl %}<a href="{{ nexturl }}" class="next f7 f5-l link purple hover-light-purple avenir">Next episode: {{ page.next.title }}</a>{% endif %}
+</nav>
+
+<nav class="last-comic dtc ttu tracked tr">
+  <a class="f7 f5-l link purple hover-light-purple avenir" href="{{ site.comics.last.url }}">Last episode</a>
+</nav>
+
+</section>
+<br>
+
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+};
+</script>

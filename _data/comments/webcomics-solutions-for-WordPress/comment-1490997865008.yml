@@ -1,0 +1,9 @@
+_id: 005b74a0-165e-11e7-951e-15ced69e6d88
+message: >-
+  Thanks for your comment, Lori. I’m not aware of any other options available for WordPress at the moment. There are a lot of custom WordPress themes for comics derived from the options above. It seems these themes and plugins are still maintained but major changes look less frequent. I wrote my own webcomics theme, [Strip](https://silentcomics.com/wordpress/webcomics/strip-theme-pre-release/), as I needed something less complex, without much styling options. Its main flaw is that it will lock-in your content. This means you would lose access to the comics data when switching to another theme. Not an acceptable solution. I’m working on a plugin in my spare time but it will likely take ages before it becomes good enough for release. And that is if it ever happens.
+name: SILENT COMICS
+email: 22691fe15fde3bbfb4cc16ac34285526
+url: 'https://silent-comics.com'
+avatar:
+replying_to: '1'
+date: '2017-03-31T22:04:25.007Z'
