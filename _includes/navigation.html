@@ -1,5 +1,6 @@
-<nav role="navigation" class="db dt-l w-100 border-box pa3 ph6-l tc tl-l mb2 mb0-l">
+<nav role="navigation" class="db dt-l w-100 border-box pa3 ph5-l">
  <a class="db dtc-l v-mid mid-gray link grow w-100 w-25-l tc tl-l mb2 mb0-l f4 f3 b ttu tracked helvetica" href="/" title="Frame by Frame home">FRAME by FRAME</a>
+  <div class="db dtc-l v-mid w-100 w-75-l tc tr-l avenir">
 
     {% for link in site.data.navigation.main %}
       {% if link.url contains 'http' %}
@@ -11,4 +12,5 @@
     {% endfor %}
 
 <a class="link f6 f5-l ba b--solid ph3 pv2 mb2 mt2-ns mt3 dib dim purple grow" href="https://silent-comics.com/" title="Launch">Launch</a>
+  </div>
 </nav>
