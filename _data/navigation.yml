@@ -1,15 +1,9 @@
 # Main links in top navigation
 main:
-#  - title: "ISSUES"
-#    url: /issues/
   - title: "About"
-    url: /about/
-  - title: "MANIFESTO"
-    url: /manifesto/
+    url: https://silentcomics.github.io/frame-by-frame/about/
   - title: "Blog"
-    url: /notes/
-#  - title: "COMICS"
-#    url: https://silent-comics.com/
+    url: https://silentcomics.github.io/frame-by-frame/notes/
   # - title: "SHOP"
   #   url: https://gumroad.com/silentcomics
   # - title: "Sample Posts"
