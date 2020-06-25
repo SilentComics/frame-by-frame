@@ -7,7 +7,7 @@
         <path d="M20 1 L24 5 L14 16 L24 27 L20 31 L6 16 z"></path>
       </svg>
       <span class="avenir f5 gray">{{ site.data.ui-text[site.lang].pagination_previous | default: "Previous post" }}</span>
-      <h3 class="f6 measure-wide">{{ page.previous.title}}</h3>
+      <h3 class="f6 measure-wide">{{ page.previous.title }}</h3>
     </div>
   </a>
   {% endif %}
@@ -25,10 +25,10 @@
   {% endif %}
 </div>
 
-<!-- We don't use keyboard navigation since it conflicts with PhotosWipe and is therefore confusing for users -->
-<!-- <script>
+<!-- Keyboard navigation -->
+<script>
 document.body.onkeyup = function(e){
 if (e.keyCode == '37') { window.location = '{{page.previous.url}}'; }
 if (e.keyCode == '39') { window.location = '{{page.next.url}}'; }
 };
-</script> -->
+</script>
