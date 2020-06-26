@@ -1,7 +1,8 @@
 frame by frame
 ======================
 ### Source code
-This repo contains the former [silentcomics.com](https://silentcomics.com "SILENT COMICS blog") blog’s codebase. The blog consists mostly of notes about the web design and learning curve surrounding SILENT COMICS project. SILENT COMICS is about self-publishing, and the "technical blog" archived here is about the stuff I learned along the way, mainly about Jekyll and WordPress. Keep in mind that when I started this project, I was a complete novice about web designing. This repo contains my notes about building a web platform for comics and learning along the way.  If any of these posts are useful to you, more power to you.
+This repo contains the previous [silentcomics.com](https://silentcomics.com "SILENT COMICS blog") blog codebase. The blog consists mostly of notes about learning web design and the learning curve surrounding the SILENT COMICS project. SILENT COMICS is about self-publishing, and the "technical blog" archived here is about the stuff I learned along the way, mainly about Jekyll and WordPress. That is not going to be technical for the technical-minded, I promise. Keep in mind that when I started this project, I was a complete novice about web design. This repo is a journal of notes about building a web platform for comics and what I learned along the way. 
+More power to you if some of these posts are useful to you.
 
 <figure>
 <a href="https://silentcomics.com"><img src="https://silentcomics.com/images/index_silent-comics_BW.png"/></a>
