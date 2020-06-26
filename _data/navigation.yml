@@ -1,9 +1,7 @@
 # Main links in top navigation
 main:
-  - title: "About"
-    url: https://silentcomics.github.io/frame-by-frame/about/
-  - title: "Blog"
-    url: https://silentcomics.github.io/frame-by-frame/notes/
+  - title: "Log"
+    url: /notes/
   # - title: "SHOP"
   #   url: https://gumroad.com/silentcomics
   # - title: "Sample Posts"
