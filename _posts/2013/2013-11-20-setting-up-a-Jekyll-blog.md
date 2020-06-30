@@ -1,6 +1,8 @@
 ---
 layout: single
 title: How to setup a blog with Jekyll
+redirect_from:
+  - https://silentcomics.com/jekyll/setting-up-a-jekyll-blog/
 description: "Jekyll: How to setup your blog with Jekyll."
 author: Hoa
 author_profile: false
