@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-feed"
   gem "jekyll_picture_tag"
+  gem 'jekyll-redirect-from'
   #gem "fastimage"
   gem "jekyll-image-size", "~> 1.2"
 end

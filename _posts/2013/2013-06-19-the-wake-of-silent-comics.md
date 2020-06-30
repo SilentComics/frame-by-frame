@@ -1,5 +1,6 @@
 ---
 layout: single
+redirect_from: https://silentcomics.com/the-wake-of-silent-comics/
 photoswipe: true
 title: "The Wake of SILENT COMICS"
 description: "Kick-off: The Wake of SILENT COMICS."

@@ -112,9 +112,6 @@ kramdown:
 
 # Collections
 collections:
-  comics:
-    output: true
-    permalink: /:collection/:path/
   essays:
     output: true
     permalink: /:collection/:path/
@@ -201,6 +198,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-image-size
+  - jekyll-redirect-from
 
   # Jekyll Picture Tag general settings
 picture:
