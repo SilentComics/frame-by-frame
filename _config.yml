@@ -28,9 +28,6 @@ reCaptcha:
   secret: "f+B4HetX8bqlpAt3Ge29oJHU1GQL/yEH9RvFg37zsT+Xt9FA6UWiZt0zKsctXSOKLqxv7dbmwOZURUPe4CvQu3uCMjPZu5lm3QDkGed5LynZUa+uT5NmA+ViZHZ42N9BlOU+GtTFlVfEGn7D/T5PM0cdPErtQ8EejBsrzR5zhg8="
 
 feed:
-  collections:
-    comics:
-      path: "/comics.xml"
 
 # Social Sharing
 twitter:
