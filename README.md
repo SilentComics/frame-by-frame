@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a96ea929-6c38-47ed-9b84-b99c3324d338/deploy-status)](https://app.netlify.com/sites/silentcomicslog/deploys)
+
 frame by frame
 ======================
 ### Source code
