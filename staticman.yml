@@ -59,7 +59,7 @@ comments:
      type: "comment"
 
   # Name of the site. Used in notification emails.
-  name: "silentcomics.com"
+  name: "log.silentcomics.com"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -95,5 +95,5 @@ comments:
   # reCaptcha
   reCaptcha:
     enabled: true
-    siteKey: "6Lf0SawUAAAAANqq3mK_YS60zmOX2qwk6Kf7QuGs"
-    secret: "f+B4HetX8bqlpAt3Ge29oJHU1GQL/yEH9RvFg37zsT+Xt9FA6UWiZt0zKsctXSOKLqxv7dbmwOZURUPe4CvQu3uCMjPZu5lm3QDkGed5LynZUa+uT5NmA+ViZHZ42N9BlOU+GtTFlVfEGn7D/T5PM0cdPErtQ8EejBsrzR5zhg8="
+    siteKey: "6LdhPKwZAAAAAGOarfQTlK7P8FASU7qZVAKiOe6-"
+    secret: "6LdhPKwZAAAAAE_xiOaLznIT2_LISyhcrqSK58md"
