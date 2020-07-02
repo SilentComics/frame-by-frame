@@ -24,8 +24,8 @@ staticman:
 
 # reCAPTCHA keys
 reCaptcha:
-  siteKey: "6Lf0SawUAAAAANqq3mK_YS60zmOX2qwk6Kf7QuGs"
-  secret: "f+B4HetX8bqlpAt3Ge29oJHU1GQL/yEH9RvFg37zsT+Xt9FA6UWiZt0zKsctXSOKLqxv7dbmwOZURUPe4CvQu3uCMjPZu5lm3QDkGed5LynZUa+uT5NmA+ViZHZ42N9BlOU+GtTFlVfEGn7D/T5PM0cdPErtQ8EejBsrzR5zhg8="
+  siteKey: "6LdhPKwZAAAAAGOarfQTlK7P8FASU7qZVAKiOe6-"
+  secret: "mHXqFbRj/I9JfTnPJtpzgzCZGfUm0G2hqCwrsG6SZc49sij0FwoGavH9NYlhVZIh0NgmIv3N537jZgM1+34W+lO6VD8uPR3CwRpev1KtjLfF7HdjkVA5vd/O3V2XDO+NGVaJRMGDaDS4CEYJEsO3PKmLOqp4unpownusBHjmOFE="
 
 feed:
 
