@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "SILENT COMICS"
+title                    : "Frame by Frame"
 title_separator          : "-"
-description              : "SILENT COMICS, independent, mercurial, and ad-free comics."
+description              : "SILENT COMICS log."
 words_per_minute         : 200
 github_username          : SilentComics
 repository               : "SilentComics/frame-by-frame"
