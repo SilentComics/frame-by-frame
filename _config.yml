@@ -12,7 +12,7 @@ title_separator          : "-"
 description              : "SILENT COMICS log."
 words_per_minute         : 200
 github_username          : SilentComics
-repository               : "SilentComics/frame-by-frame"
+repository               : "frame-by-frame"
 baseurl                  : "" # the subpath of your site, e.g. /blog
 url                      : "https://log.silentcomics.com"
 
