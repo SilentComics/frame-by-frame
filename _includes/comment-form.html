@@ -2,7 +2,7 @@
   <!-- Start comment form -->
   <div id="respond" class="comment__form mw7-l center pa4 ph7-1">
     <h2 class="title">Leave a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | relative_url }}#respond" style="display:none;">Cancel reply</a></small></h2>
-    <form id="comment-form" class="js-form" method="post" action="https://api.staticman.net/v2/connect/github/{{ site.repository }}/{{ site.staticman.branch }}/comments">
+    <form id="comment-form" class="js-form" method="post" action="https://api.staticman.net/v2/connect/{{ site.github_username  }}/{{ site.repository }}/{{ site.staticman.branch }}/comments">
       <div class="form__group flex-ns justify-between">
         <label for="comment-form-name" class="db fw6 lh-copy f6 avenir">Name<br>
           <input class="w-100 pa2 mr2 input-reset ba bg-white hover-bg-near-white hover-light-purple f6 courier" type="text" id="comment-form-name" name="fields[name]" required spellcheck="false" placeholder="Your name">
