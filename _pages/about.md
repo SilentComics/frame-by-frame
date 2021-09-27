@@ -21,7 +21,7 @@ Once ready, comics will appear [here](https://silentcomics.com/comics) and [ther
 
 > Do you love comics, but don’t feel like reading? — I’m drawing silent comics for you.
 
-You can also check the <a href="/Silent-Comics-Project-Progress-Graph.html" class="btn btn--primary" title="progress graph">progress graph</a> if you are curious about how and where the project is going. Thank you for your interest.
+You can also check the <a href="https://silentcomics.com/silent-comics-project-progress-graph" class="btn btn--primary" title="progress graph">progress graph</a> if you are curious about how and where the project is going. Thank you for your interest.
 
 
 To support SILENT COMICS, click on the [heart](/lynchpin/) [<i class="fas fa-heart" style="color:tomato"></i>](/lynchpin/) to show your love.
