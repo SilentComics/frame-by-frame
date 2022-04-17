@@ -13,3 +13,5 @@ group :jekyll_plugins do
   #gem "fastimage"
   gem "jekyll-image-size", "~> 1.2"
 end
+
+gem "webrick", "~> 1.7"
