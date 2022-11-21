@@ -1,9 +1,9 @@
 ---
 layout: single
-title: How can I speed up comic-book creation?
+title: The Need For Speed
 description: "Online tools to work with colors"
 excerpt: "*Drawing comics is slow.* For this project to bear fruits, the question then becomes: how can I speed up comic-book making?"
-modified: 2020-12-12
+modified: 2022-11-21
 author: Hoa
 author_profile: false
 modified:
