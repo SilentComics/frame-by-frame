@@ -2,10 +2,10 @@
 layout: single
 title: The Draughtsman’s Sketchbook Creed
 description: "This is the draughtsman doctrine."
-author: Yves
+author: Hoa
 excerpt: "The Creed of a Sketcher, The draughtsman doctrine."
 photoswipe: true
-modified: 2019-11-06
+modified: 2022-11-22
 category:
   - drawing
 comments: true
