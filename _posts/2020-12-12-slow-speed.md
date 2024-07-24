@@ -1,9 +1,9 @@
 ---
 layout: single
 title: The Need For Speed
-description: "Online tools to work with colors"
+description: "Drawing comics, fast and slow"
 excerpt: "*Drawing comics is slow.* For this project to bear fruits, the question then becomes: how can I speed up comic-book making?"
-modified: 2022-11-22
+modified: 2024-01-09
 author: Hoa
 author_profile: false
 modified:
@@ -48,13 +48,13 @@ This first version lets you judge what needs to change. What’s needed now? A f
 
 ## Skip penciling 
 
-Ink everything directly on the page to work faster. I like to work in multiple passes, drawing over and over until I am happy with an illustration. Tracing paper is my friend. Unfortunately, the beauty and life of the initial sketch usually get lost in the process. Keeping the primal energy of the first sketches is always a challenge. Redrawing passes is also time-consuming and inefficient. Inking directly on the page is an answer to that problem. If you still need a blueprint, ink, or paint over the rough sketches.
+Ink everything directly on the page to work faster. I like to draw in multiple passes, over and over, until I am happy with an illustration. Tracing paper is my friend. Unfortunately, the beauty and life of the initial sketch usually get lost in the process. Keeping the primal energy of the first sketches is always a challenge. Redrawing passes is also time-consuming and inefficient. Inking directly on the page is an answer to that problem. If you still need a blueprint, ink, or paint over the rough sketches.
 
-Now you could also do without penciling and coloring: skip penciling or make penciling an integral part of the final art.
+You could also do without penciling and coloring:  skip that or make it an integral part of the final art.
 
 ## Skip colors
 
-If you are drawing a comic book, chances are coloring is slowing you down. Being a good colorist is a skill worthy of a separate profession. Now you could skip coloring artwork: black and white comics are great. However, removing the color stage means abandoning a powerful narrative device. You could also decide to use a single color or a reduced palette.
+If you are drawing a comic book, chances are that coloring is slowing you down. Being a good colorist is a skill worthy of a separate profession. Now, you could skip coloring artwork. Black and white comics are great. However, removing the color stage means abandoning a powerful narrative device. You could also decide to use a single color or a reduced palette.
 
 In the end, it is all about choice.
 
@@ -65,7 +65,7 @@ Lettering is another time-consuming task. It may be worth spending time to desig
 ## Skip writing a script
 
 
-**Make the comic itself becomes the script.** If you are in a hurry, start drawing without a story. Make it all up. Draw the comic as a rough storyboard. Still readable, it has aesthetic qualities in itself. It’s a visual script that contains the story. It might stand up as it is, not as a finished over-designed book, but as an original blueprint. You might spend ages turning it into a fine art book later on. But at least you’ll have both the comic and the story, not just a vision in your head.
+**Make the comic itself become the script.** If you are in a hurry, start drawing without a story. Make it all up. Draw the comic as a rough storyboard. Still readable, it has aesthetic qualities in itself. It’s a visual script that contains the story. It might stand up as it is, not as a finished, over-designed book, but as an original blueprint. You might spend ages turning it into a fine art book later on. But at least you’ll have both the comic and the story, not just a vision in your head.
 
 ## Design stories as visual narratives
 
