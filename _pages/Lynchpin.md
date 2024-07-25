@@ -88,7 +88,7 @@ follow / relate / interact with SILENT COMICS on
 
 [Facebook <i class="fab fa-facebook-f"></i>](https://www.facebook.com/SilentComics/ "Silent Comics on Facebook")
 
-[@SilentComics on Twitter <i class="fab fa-twitter"></i>](https://twitter.com/SilentComics "Silent Comics on Twitter").
+[@SilentComics on Twitter <i class="fab fa-x-twitter"></i>](https://twitter.com/SilentComics "Silent Comics on Twitter").
 
 ## Signup to join the heroes list <i class="far fa-envelope fa-spin"></i>
 Become a hero, and be ready for comics & special treats when the site launches:
