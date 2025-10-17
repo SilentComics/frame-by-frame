@@ -54,4 +54,4 @@ Comments enabled thanks to [Staticman](https://github.com/eduardoboucas/staticma
 
 Icons thanks to [Font Awesome](http://fontawesome.io)
 
-All images and content © [SILENT COMICS](http://silent-comics.com) 2013-2020.
+All images and content © [SILENT COMICS](http://silent-comics.com) 2013-2025.
